@@ -1,0 +1,152 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+body {
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 850px;
+    height: 100%;
+    /* border: 1px solid black; */
+    float: right;
+}
+
+.rht {
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin-right: 200px;
+    margin-top: 180px;
+}
+
+.forgot {
+    display: block;
+}
+
+#username {
+    margin-right: 4px;
+}
+
+#password,
+#username {
+    padding: 11px;
+    border: 1px solid #eceff1;
+}
+
+.login {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+
+    border: 1px solid #007bff;
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+.login:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* .main-container{
+        width: 500px;
+        margin: auto;
+    } */
+.form {
+    margin-bottom: 10rem;
+}
+
+.logo-img {
+    margin-bottom: 0%;
+    /* padding: 10px; */
+}
+
+.main-text-1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.main-text-2 {
+    margin-top: 0%;
+}
+
+.second-heading {
+    margin-top: 2.5rem;
+}
+
+.buttons-section {
+    width: 260px;
+}
+
+.signup,
+.login-2 {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    width: inherit;
+    margin-bottom: 1rem;
+}
+
+.signup,
+.login-2:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.forgot {
+    color: #CBCFD2;
+    font-size: 13px;
+    margin-left: 12.6rem;
+    cursor: pointer;
+
+
+}
+
+.main-container-2 {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url(img/777.png);
+    background-size: cover;
+    /* background-color: #1BA2F3; */
+    background-color: #fff;
+}
+
+.left {
+    color: white;
+    float: left;
+}
+
+#iconzz {
+    color: #fff;
+    font-size: 20px;
+}
+
+p.para {
+
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+.icon-text {
+    cursor: pointer;
+}
